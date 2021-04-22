@@ -17,8 +17,8 @@ Then open cmd and run linear_model.py
 python linear_model.py
 ```
 
-The first graph shows the Eigenvalues of the $\sigma$ matrix, that correspond to the SVD:
-X = U @ $\sigma$ @ V.transpose
+The first graph shows the Eigenvalues of the Σ matrix, that correspond to the SVD:
+X = U @ Σ @ V.transpose
 
 The second graph shows the mean square error y - the response vector, and y_hat - the predicted vector.
 
